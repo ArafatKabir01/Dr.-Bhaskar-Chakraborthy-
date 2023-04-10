@@ -1,15 +1,48 @@
+import Image from 'next/image'
 import React from 'react'
-
+import hospitalImg from "../../Assets/Ahsania Mission Cancer And General Hospital.jpg"
+import hospitalImg2 from "../../Assets/Doctor List Popular Diagnostic Centre Chittagong.JPG"
 export const Chamber = () => {
     return (
         <div>
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content text-center">
-                    <div className="max-w-md">
-                        <h1 className="text-5xl font-bold">Hello there</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-primary">Get Started</button>
+            <div className=" ">
+                <div className="card lg:card-side bg-base-100 shadow-xl">
+                    <figure><Image alt="Doctor's image"
+                        src={hospitalImg}
+                        className="rounded-lg w-full h-[500px] lg:h-[750px]"
+                    /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title text-5xl">Chamber at Dhaka: </h2>
+                        <p>Ahsania Mission Cancer And General Hospital</p>
+                        <p>Plot-3, Sector-10, Uttara, Dhaka.</p>
+                        <p>Phone:01531-291810, 09678-016391</p>
+                        <p>For Appointment : 01969-596003</p>
+                        <p>(8.00 AM-3.00 PM)</p>
+                        <p>Visiting Day:</p>
+                        <p>E-mail : bchakraborty383@gmail.com</p>
+                        <p>Tuesday,Wednesday & Thursday</p>
+                        <p>Time : 10.00AM -2.00PM,5.00PM -9.00PM</p>
                     </div>
+                </div>
+            </div>
+            <div className=" ">
+                <div className="card lg:card-side bg-base-100 ">
+                    <div className="card-body">
+                        <h2 className="card-title text-5xl">Chamber at Dhaka: </h2>
+                        <p>Ahsania Mission Cancer And General Hospital</p>
+                        <p>Plot-3, Sector-10, Uttara, Dhaka.</p>
+                        <p>Phone:01531-291810, 09678-016391</p>
+                        <p>For Appointment : 01969-596003</p>
+                        <p>(8.00 AM-3.00 PM)</p>
+                        <p>Visiting Day:</p>
+                        <p>E-mail : bchakraborty383@gmail.com</p>
+                        <p>Tuesday,Wednesday & Thursday</p>
+                        <p>Time : 10.00AM -2.00PM,5.00PM -9.00PM</p>
+                    </div>
+                    <figure><Image alt="Doctor's image"
+                        src={hospitalImg2}
+                        className="rounded-lg w-full h-[500px] lg:h-[750px]"
+                    /></figure>
                 </div>
             </div>
         </div>

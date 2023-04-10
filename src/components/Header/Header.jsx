@@ -2,8 +2,8 @@ import Image from "next/image"
 import logoImg from "../../Assets/logo.png"
 const Header = () => {
     return (
-        <div className="">
-            <div className="navbar fixed top-0 left-0 right-0 container mx-auto z-50">
+        <div className="bg-[#E6F7FC] ">
+            <div className="navbar  container mx-auto z-50">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -18,12 +18,7 @@ const Header = () => {
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a ><Image alt="Alternative text for the image"
-                            width={200}
-                            // height={20}
-                            src={logoImg}
-                            className="h-22"
-                        /></a>
+                    <a  className="btn btn-ghost normal-case text-xl">Dr. Bashkar</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
