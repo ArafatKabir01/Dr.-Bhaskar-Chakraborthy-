@@ -1,4 +1,4 @@
-// import doctorImg from '../../Assets/dr.baskar.png'
+import doctorImg from '../../Assets/dr.baskar.png'
 import Image from 'next/image';
 export const Banner = () => {
     return (
@@ -14,7 +14,7 @@ export const Banner = () => {
                 </div>
                 <div className='flex items-end '>
                     <Image alt="Doctor's image"
-                        // src={doctorImg}
+                        src="https://i.ibb.co/x1SpSrj/dr-baskar.png"
                         className="rounded-lg w-full h-[500px] lg:h-[750px]"
                     />
                 </div>

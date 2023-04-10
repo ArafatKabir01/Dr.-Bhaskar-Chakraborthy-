@@ -7,8 +7,8 @@ export const Chamber = () => {
         <div>
             <div className=" ">
                 <div className="card lg:card-side bg-base-100 shadow-xl">
-                    <figure><Image alt="Doctor's image"
-                        src=""
+                    <figure><Image alt="Hospital image"
+                        src="https://i.ibb.co/ZTkS9hG/ahsania-Mission.jpg"
                         className="rounded-lg w-full h-[500px] lg:h-[750px]"
                     /></figure>
                     <div className="card-body">
@@ -39,7 +39,7 @@ export const Chamber = () => {
                         
                     </div>
                     <figure><Image alt="Doctor's image"
-                        src=""
+                        src="https://i.ibb.co/D9dkHkN/popular-Diagnostic.jpg"
                         className="rounded-lg w-full h-[500px] lg:h-[750px]"
                     /></figure>
                 </div>
