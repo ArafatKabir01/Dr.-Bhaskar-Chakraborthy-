@@ -7,16 +7,12 @@ export const Chamber = () => {
         <div>
             <div className=" ">
                 <div className="card lg:card-side bg-base-100 shadow-xl">
-<<<<<<< HEAD
-                    {/* <figure><Image alt="Hospital image"
-=======
                     <figure><Image alt="Hospital image"
                         width={500}
                         height={500}
->>>>>>> d30d52119ca39a28ba9da448f2d56ccaa56652a8
-                        src="https://i.ibb.co/ZTkS9hG/ahsania-Mission.jpg"
+                        // src="https://i.ibb.co/ZTkS9hG/ahsania-Mission.jpg"
                         className="rounded-lg w-full h-[500px] lg:h-[750px]"
-                    /></figure> */}
+                    /></figure>
                     <div className="card-body">
                         <h2 className="card-title text-5xl">Chamber at Dhaka: </h2>
                         <p>Ahsania Mission Cancer And General Hospital.</p>
@@ -44,16 +40,12 @@ export const Chamber = () => {
                         <p>E-mail : bchakraborty383@gmail.com</p>
 
                     </div>
-<<<<<<< HEAD
-                    {/* <figure><Image alt="Doctor's image"
-=======
                     <figure><Image alt="Doctor's image"
                         width={500}
                         height={500}
->>>>>>> d30d52119ca39a28ba9da448f2d56ccaa56652a8
-                        src="https://i.ibb.co/D9dkHkN/popular-Diagnostic.jpg"
+                        // src="https://i.ibb.co/D9dkHkN/popular-Diagnostic.jpg"
                         className="rounded-lg w-full h-[500px] lg:h-[750px]"
-                    /></figure> */}
+                    /></figure> 
                 </div>
             </div>
         </div>
