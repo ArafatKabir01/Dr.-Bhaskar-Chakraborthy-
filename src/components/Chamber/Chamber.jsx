@@ -8,6 +8,8 @@ export const Chamber = () => {
             <div className=" ">
                 <div className="card lg:card-side bg-base-100 shadow-xl">
                     <figure><Image alt="Hospital image"
+                        width={500}
+                        height={500}
                         src="https://i.ibb.co/ZTkS9hG/ahsania-Mission.jpg"
                         className="rounded-lg w-full h-[500px] lg:h-[750px]"
                     /></figure>
@@ -36,9 +38,11 @@ export const Chamber = () => {
                         <p>Saturday, Sunday & Monday (5.00 PM 7.00 PM) , Time : 9.00 AM-2.00 PM</p>
                         <p>Visiting Day:</p>
                         <p>E-mail : bchakraborty383@gmail.com</p>
-                        
+
                     </div>
                     <figure><Image alt="Doctor's image"
+                        width={500}
+                        height={500}
                         src="https://i.ibb.co/D9dkHkN/popular-Diagnostic.jpg"
                         className="rounded-lg w-full h-[500px] lg:h-[750px]"
                     /></figure>
