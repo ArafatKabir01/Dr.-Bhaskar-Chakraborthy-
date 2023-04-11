@@ -7,7 +7,13 @@ export const Chamber = () => {
         <div>
             <div className=" ">
                 <div className="card lg:card-side bg-base-100 shadow-xl">
+<<<<<<< HEAD
                     {/* <figure><Image alt="Hospital image"
+=======
+                    <figure><Image alt="Hospital image"
+                        width={500}
+                        height={500}
+>>>>>>> d30d52119ca39a28ba9da448f2d56ccaa56652a8
                         src="https://i.ibb.co/ZTkS9hG/ahsania-Mission.jpg"
                         className="rounded-lg w-full h-[500px] lg:h-[750px]"
                     /></figure> */}
@@ -36,9 +42,15 @@ export const Chamber = () => {
                         <p>Saturday, Sunday & Monday (5.00 PM 7.00 PM) , Time : 9.00 AM-2.00 PM</p>
                         <p>Visiting Day:</p>
                         <p>E-mail : bchakraborty383@gmail.com</p>
-                        
+
                     </div>
+<<<<<<< HEAD
                     {/* <figure><Image alt="Doctor's image"
+=======
+                    <figure><Image alt="Doctor's image"
+                        width={500}
+                        height={500}
+>>>>>>> d30d52119ca39a28ba9da448f2d56ccaa56652a8
                         src="https://i.ibb.co/D9dkHkN/popular-Diagnostic.jpg"
                         className="rounded-lg w-full h-[500px] lg:h-[750px]"
                     /></figure> */}
