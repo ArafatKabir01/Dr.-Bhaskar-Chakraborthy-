@@ -12,12 +12,12 @@ export const Banner = () => {
                         <button className="btn btn-accent">Book An Appointment</button>
                     </div>
                 </div>
-                <div className='flex items-end '>
+                {/* <div className='flex items-end '>
                     <Image alt="Doctor's image"
                         src="https://i.ibb.co/x1SpSrj/dr-baskar.png"
                         className="rounded-lg w-full h-[500px] lg:h-[750px]"
                     />
-                </div>
+                </div> */}
 
             </div>
         </div>

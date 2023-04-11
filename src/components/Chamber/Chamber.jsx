@@ -7,10 +7,10 @@ export const Chamber = () => {
         <div>
             <div className=" ">
                 <div className="card lg:card-side bg-base-100 shadow-xl">
-                    <figure><Image alt="Hospital image"
+                    {/* <figure><Image alt="Hospital image"
                         src="https://i.ibb.co/ZTkS9hG/ahsania-Mission.jpg"
                         className="rounded-lg w-full h-[500px] lg:h-[750px]"
-                    /></figure>
+                    /></figure> */}
                     <div className="card-body">
                         <h2 className="card-title text-5xl">Chamber at Dhaka: </h2>
                         <p>Ahsania Mission Cancer And General Hospital.</p>
@@ -38,10 +38,10 @@ export const Chamber = () => {
                         <p>E-mail : bchakraborty383@gmail.com</p>
                         
                     </div>
-                    <figure><Image alt="Doctor's image"
+                    {/* <figure><Image alt="Doctor's image"
                         src="https://i.ibb.co/D9dkHkN/popular-Diagnostic.jpg"
                         className="rounded-lg w-full h-[500px] lg:h-[750px]"
-                    /></figure>
+                    /></figure> */}
                 </div>
             </div>
         </div>
