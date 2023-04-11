@@ -13,10 +13,10 @@ export const Chamber = () => {
                     /></figure>
                     <div className="card-body">
                         <h2 className="card-title text-5xl">Chamber at Dhaka: </h2>
-                        <p>Ahsania Mission Cancer And General Hospital</p>
+                        <p>Ahsania Mission Cancer And General Hospital.</p>
                         <p>Plot-3, Sector-10, Uttara, Dhaka.</p>
                         <p>Phone:01531-291810, 09678-016391</p>
-                        <p>For Appointment : 01969-596003</p>
+                        <p>For Appointment : 01969-596003.</p>
                         <p>(8.00 AM-3.00 PM)</p>
                         <p>Visiting Day:</p>
                         <p>E-mail : bchakraborty383@gmail.com</p>
